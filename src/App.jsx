@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/header'
 import Slider from './components/Slider'
+import SectionCardapio from './components/SectionCardapio'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div id='body'>
       <Header/>
       <Slider/>
+      <SectionCardapio/>
     </div>
   )
 }

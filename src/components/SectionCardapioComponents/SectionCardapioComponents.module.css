@@ -1,0 +1,28 @@
+.divCardapio{
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.divCardapio img{
+    width: 80%;
+    height: 60%;
+    box-shadow: 10px 10px 40px;
+}
+.divCardapio div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+.descricao, h3{
+    margin-top: 15px;
+}
+#containerCardapio{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
