@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/header'
 import Slider from './components/Slider'
 import SectionCardapio from './components/SectionCardapio'
+import SectionDelivery from './components/SectionDelivery'
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <Slider/>
       <SectionCardapio/>
+      <SectionDelivery/>
     </div>
   )
 }
